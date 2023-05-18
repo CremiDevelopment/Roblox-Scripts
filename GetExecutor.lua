@@ -2,6 +2,7 @@ local exec_name = (getexecutor or getexecutorname or getidentityexecutor or iden
 
 if exec_name != 'Unknown' then
   print('Executor name: ' .. exec_name .. ' ; And copied to clipboard');
+  game:GetService("StarterGui"):SetCore("ChatMakeSystemMessage", { Text ='Executor name: ' .. exec_name .. ' ; And copied to clipboard'})
   setclipboard(exec_name);
 else 
   print('Executor is unknown!');
