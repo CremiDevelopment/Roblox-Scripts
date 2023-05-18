@@ -5,5 +5,5 @@ print(exec_name)
 local UI = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/twink", true))()
 
 UI.Load("Example UI name")
-UI.TabLibrary.AddPage("Example Page Title", false)
+UI.TabLibrary.AddPage("Example Page Title", nil)
 UI.PageLibrary.AddLabel("Example Label")
